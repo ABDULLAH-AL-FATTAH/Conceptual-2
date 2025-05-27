@@ -39,6 +39,25 @@ header {
     
 }
 
+
+    /* ----------------------------featured section---------------------------- */
+
+.section-heading{
+    max-width: 594px;
+    text-align: center;
+    margin: 20px auto;
+}
+.section-heading h2{
+    color: #272727;
+    text-align: center;
+    font-family: lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
 .banner {
     display: flex;
     align-items: center;
@@ -64,4 +83,49 @@ header {
 .banner .banner-img img{
     width: 100%;
     vertical-align: middle;
+}
+/* ----------------------------featured section---------------------------- */
+#featured{
+    padding: 100px 0;
+}
+.section-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 20px;
+
+}
+.section-content .flower .flower-img{
+    background-color: #8a3e3e;
+    border-radius: 300px 300px 0px 0px;
+    padding: 30px 25px 0;
+    height: 400px;
+    display: flex;
+    align-items: end;
+
+}
+
+.section-content .flower .flower-img img{
+    width: 100%;
+}
+
+.section-content .flower  .pink{
+     background: rgba(167, 33, 98, 0.15);
+}
+.section-content .flower .blue{
+     background: rgba(5, 151, 160, 0.15);
+}
+.section-content .flower .green{
+     background: rgba(71, 125, 17, 0.15);
+}
+
+.section-content .flower{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
 }
