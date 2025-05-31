@@ -129,3 +129,15 @@ header {
     line-height: 35px;
     text-decoration-line: underline;
 }
+
+#service{
+    padding: 100px 0;
+}
+
+#service .container{
+    background-color: #72738a;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 20px;
+}
